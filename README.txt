@@ -3,7 +3,7 @@ Submitted by: Mason Daniel 12/3/2018
 
 *Description:
 
-This project was completed for a Programming Languages course at Southwestern University. The project was assigned by Dr. Barbara Anthony, and was inspired by a project from Ben Stephenson at the University of Calgary. The project was altered in that our solution was required to be submitted in Scala. Thus, this implementation utilizes Scala and its functional/object-oriented capabilities.
+This project was completed for a Programming Languages course at Southwestern University. The project was assigned by Dr. Barbara Anthony, and was inspired by a project from Ben Stephenson at the University of Calgary. The project was altered in that our solution was required to be submitted in Scala. Thus, this implementation utilizes Scala and its functional/object-oriented capabilities. 
 
 *Functions added:
 
@@ -20,3 +20,5 @@ This function simply returns a List when called. This list contains three ints, 
 *References*
 I used the following URL for learning how to generate random numbers in Scala:
 https://stackoverflow.com/questions/39402567/get-random-number-between-two-numbers-in-scala
+
+Dr. Anthony created all of the other functions not listed above. The functions listed above are the ones that I implemented to make the program generate Mondrian art recursively. The only function altered by me that is not listed above is the getAllRectangles() function, where I simply changed the return statement to ensure rectangles were recursively split. Dr. Anthony provided all other functions as starter code.
