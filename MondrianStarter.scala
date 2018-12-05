@@ -1,30 +1,7 @@
 import java.io._
 
-/*
- * This is starter code for the Mondrian art assignment. Your task will be to
- * implement the getAllRectangles() method (with additional helper methods / objects
- * as necessary). 
- * 
- * Your solution should be recursive and random.
- * 
- * To generate the image, subdivision should be recursively performed using three
- * methods:
- *   - horizontal split
- *   - vertical split
- *   - both horizontal and vertical splits together (i.e., into four rectangles)
- *    
- * A couple notes on the randomization used to generate the image:
- *   - Split positions are selected randomly in the middle of a rectangle with some portions
- *     of the rectangle near the ends excluded.
- *   - If a rectangle is much wider than it is tall, or taller than it is wide, I didn't allow
- *     it to be split in the dimension that would make it even less square. (In other words, if 
- *     a rectangle was say 2 units wide and only 1 unit tall, I only allowed a horizontal split
- *     and not a vertical one).
- *   - I generated colors by first randomly selecting either white, red, blue or green and then selecting
- *     a random shade of that color if it wasn't white. I chose to color ~70% of the cells white and 
- *     equally distribute the other colors. Choosing colors differently can give a bunch of different
- *     images. 
- */
+
+
 object Mondrian {
     // This value is the size of the image to produce 
     val canvasSize = 500
