@@ -1,10 +1,9 @@
 # ModrianArtSource2018
 Submitted by: Mason Daniel 12/3/2018
 
-Files Submitted: 
-README..txt
-ModrianStarter.scala
-Assignment11BookProblems.doc
+*Description:
+
+This project was completed for a Programming Languages course at Southwestern University. The project was assigned by Dr. Barbara Anthony, and was inspired by a project from Ben Stephenson at the University of Calgary. The project was altered in that our solution was required to be submitted in Scala. Thus, this implementation utilizes Scala and its functional/object-oriented capabilities.
 
 *Functions added:
 
@@ -18,19 +17,6 @@ getRandomColor()
 This function simply returns a List when called. This list contains three ints, each from 0-255, that will represent a RGB color. 70% of the time, it will return white. For the other 30%, it will return a random shade of red, green, or blue. This is done by picking a random number between 0 and 9, where 0 = red, 1 = green, 2 = blue, and 3-9 = white.
 
 
-*Summary
-
-This project was not super difficult, and the only time I used the Internet was to find documentation on how to generate a random number in Scala. A lot of it was up to us and our problem solving to figure out, which made it very fun. Additionally, the results are interesting and actually tangible, so it was a rewarding project. The only real hold-up I came across was after implementing my functions, I was getting an Illegal Argument Exception. This was due to declaring a new random point to split the rectangle outside of the possible boundaries. Once I found the root to the problem, I actually got a decent result. After some minor fixes, I came out with something that I think works. The only real limitation to it is on the right side, it seems that there is always a white rectangle. I am not sure if this has to do with when I split the rectangle intitally, or if it has to do with how I declare the boundaries of my first rectangle, but I could not seem to fix that problem. Besides that, it seems to perform the main function required, which is recursively splitting rectangles and giving them random shades of red, green, and blue. 
-
-This project was a great way to get some more Scala experience, especially since it was so do-able but still challenging. It was also a very suitable language for this type of problem given its functional and object-oriented nature.
-
-
-
-References
+*References*
 I used the following URL for learning how to generate random numbers in Scala:
 https://stackoverflow.com/questions/39402567/get-random-number-between-two-numbers-in-scala
-
-I also spoke with Elyssa, Colin, Jacob, and Isabel about the overall idea on approaching this project.
-
-I have acted with honesty and integrity in producing this work and am unaware of anyone who has not.
-Mason Daniel
